@@ -1,0 +1,12 @@
+Your name: Sarangpreet Singh Padda
+Your student ID: 010770162
+Your major: BS Software eng.
+Your preferred email address: sarpadda@gmail.com
+Check one:  Undergraduate
+Repeating the class?  No
+Place and semester where you took a programming course in Java: Sjsu and fall 2017
+Course number and grade received: Cs 46 and B+
+Place and semester where you took a course in data structures: Sjsu and Spring 2018
+Course number and grade received: Cs 146 and B
+Time it took you to answer the two questions below: 70 min
+Did you ask anyone for help?  No
