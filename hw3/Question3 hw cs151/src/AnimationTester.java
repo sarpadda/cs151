@@ -43,19 +43,22 @@ public class AnimationTester
 
       final int DELAY = 10;
       // Milliseconds between timer ticks
+ 	 
+    
+ 	
       Timer t = new Timer(DELAY, event ->
          {
-            
         	 for(int i=0; i<shapes.size();i++) {
-             shapes.get(i).move();
+    		 if (shapes.get(i).getBackXCoordinate() > frame.getSize().getWidth())
+ 			{
+    			 shapes.get(i).setCoordinates(0);
+ 			}
+    		 shapes.get(i).move();
            	 label.repaint();
         	 }
-
-
-           
          });
-      
       t.start();
+ 	 
       
    }
 

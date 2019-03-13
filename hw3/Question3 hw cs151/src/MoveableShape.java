@@ -16,4 +16,8 @@ public interface MoveableShape
       its last movement, its position, and velocity.
    */
    void move();
+   
+	int getBackXCoordinate();
+
+	void setCoordinates(int x);
 }

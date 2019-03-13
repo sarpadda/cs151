@@ -63,6 +63,19 @@ public class CarShape implements MoveableShape
       g2.draw(roofTop);
       g2.draw(rearWindshield);
    }
+
+	@Override
+	public int getBackXCoordinate()
+	{
+		return x;
+	}
+
+	@Override
+	public void setCoordinates(int x)
+	{
+		this.x = x;
+
+	}
    
    private int x;
    private int y;
