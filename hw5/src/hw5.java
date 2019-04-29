@@ -1,10 +1,11 @@
 import java.awt.Rectangle;
-import java.util.Arrays;
 
 public class hw5 {
 	
 	public static void dumpArray(Object[] a) {
-		System.out.print(Arrays.toString(a));
+		for(int i=0; i<a.length;i++) {
+			System.out.println(a[i].toString());	
+		}
 	}
 	
 	public static void main(String[] args) {
